@@ -1,0 +1,179 @@
+add_namespace = KMT_ca6000t
+
+#我们收到了三菱和播磨的设计方案
+country_event = {
+	id = KMT_ca6000t.1
+	title = KMT_ca6000t.1.t
+	desc = KMT_ca6000t.1.d
+	picture = GFX_report_event_chinese_japanese_handshake
+	fire_only_once = no
+	is_triggered_only = yes
+	#阅览三菱造船所设计方案
+	option = {
+		name = KMT_ca6000t.1.a 
+		trigger = { tag = CHI }
+		country_event = KMT_ca6000t.2
+	}
+	#阅览播磨造船所设计方案
+	option = {
+		name = KMT_ca6000t.1.b 
+		trigger = { tag = CHI }
+		country_event = KMT_ca6000t.3
+	}
+}
+
+#阅览三菱造船所设计方案
+country_event = {
+	id = KMT_ca6000t.2
+	title = KMT_ca6000t.2.t
+	desc = KMT_ca6000t.2.d
+	picture = GFX_CHI_KMT_sanling_plan
+	fire_only_once = no
+	is_triggered_only = yes
+	#选择三菱
+	option = {
+		name = KMT_ca6000t.2.a 
+		trigger = { tag = CHI }
+		unlock_decision_tooltip = {
+			decision = CHI_select_sanling
+			show_effect_tooltip = yes
+		}
+		set_country_flag = CHI_select_sanling_done
+	}
+	#返回首页
+	option = {
+		name = KMT_ca6000t.2.b 
+		trigger = { tag = CHI }
+		country_event = KMT_ca6000t.1
+	}
+}
+
+#阅览播磨造船所设计方案
+country_event = {
+	id = KMT_ca6000t.3
+	title = KMT_ca6000t.3.t
+	desc = KMT_ca6000t.3.d
+	picture = GFX_CHI_KMT_bomo_plan
+	fire_only_once = no
+	is_triggered_only = yes
+	#选择播磨
+	option = {
+		name = KMT_ca6000t.3.a 
+		trigger = { tag = CHI }
+		unlock_decision_tooltip = {
+			decision = CHI_select_bomo
+			show_effect_tooltip = yes
+		}
+		set_country_flag = CHI_select_bomo_done
+	}
+	#返回首页
+	option = {
+		name = KMT_ca6000t.3.b 
+		trigger = { tag = CHI }
+		country_event = KMT_ca6000t.1
+	}
+}
+
+#三菱造船所6000吨级巡洋舰已交付
+news_event = {
+	id = KMT_ca6000t.4
+	title = KMT_ca6000t.4.t
+	desc = KMT_ca6000t.4.d
+	picture = GFX_CHI_KMT_ca6000t_arrived
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = KMT_ca6000t.4.a
+		trigger = { tag = CHI }
+		CHI = {
+			hidden_effect = {
+				create_equipment_variant = {
+					name = "彰武级重巡洋舰"				
+					type = nrm_ship_hull_cruiser_1
+					name_group = JAP_CA_HISTORICAL
+					parent_version = 0
+					show_position = no
+					role_icon_index = 50
+					allow_without_tech = yes
+					modules = {
+						custom_slot_1 = nrm_support_cruiser_FP_2
+						custom_slot_2 = nrm_support_cruiser_ASW_2
+						custom_slot_3 = nrm_support_cruiser_TRP_21_1_x02
+						custom_slot_4 = nrm_support_cruiser_HAA_1
+						custom_slot_5 = nrm_support_cruiser_AA_1
+						custom_slot_6 = nrm_support_cruiser_SNR_1
+						fixed_ship_armor_layout_slot = nrm_armour_layout_1
+						fixed_ship_armor_slot = nrm_cruiser_armour_01_1
+						fixed_ship_battery_slot = nrm_cruiser_battery_8_1_x06
+						fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+						fixed_ship_engine_slot = nrm_cruiser_engine_S1_035
+						fixed_ship_fire_control_system_slot = nrm_fire_control_1
+						fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_1 
+						fixed_ship_range_slot = nrm_range_cruiser_2h
+						fixed_ship_subdivision_slot = nrm_subdivision_1
+						fixed_ship_tertiary_slot = nrm_cruiser_battery_5h_1_x04
+					}
+				}
+			}
+		}
+		create_ship = {
+			type = nrm_ship_hull_cruiser_1
+			equipment_variant = "彰武级重巡洋舰"
+			name = "彰武号重巡洋舰(三菱造船所)"
+		}
+	}
+}
+
+#播磨造船所6000吨级重巡洋舰已交付
+news_event = {
+	id = KMT_ca6000t.5
+	title = KMT_ca6000t.5.t
+	desc = KMT_ca6000t.5.d
+	picture = GFX_CHI_KMT_ca6000t_arrived
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = KMT_ca6000t.5.a
+		trigger = { tag = CHI }
+		CHI = {
+			hidden_effect = {
+				set_technology = {
+					basic_ship_hull_cruiser = 1
+					popup = no #不弹出提示框
+				}
+				create_equipment_variant = {
+					name = "彰武级重巡洋舰"				
+					type = nrm_ship_hull_cruiser_1
+					name_group = JAP_CA_HISTORICAL
+					parent_version = 0
+					show_position = no
+					role_icon_index = 50
+					allow_without_tech = yes
+					modules = {
+						custom_slot_1 = nrm_support_cruiser_FP_2
+						custom_slot_2 = nrm_support_cruiser_ASW_2
+						custom_slot_3 = nrm_support_cruiser_TRP_21_1_x02
+						custom_slot_4 = nrm_support_cruiser_HAA_1
+						custom_slot_5 = nrm_support_cruiser_AA_1
+						custom_slot_6 = nrm_support_cruiser_SNR_1
+						fixed_ship_armor_layout_slot = nrm_armour_layout_1
+						fixed_ship_armor_slot = nrm_cruiser_armour_01h_1
+						fixed_ship_battery_slot = nrm_cruiser_battery_8_1_x06
+						fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+						fixed_ship_engine_slot = nrm_cruiser_engine_S1_040
+						fixed_ship_fire_control_system_slot = nrm_fire_control_1
+						fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_1 
+						fixed_ship_range_slot = nrm_range_cruiser_2h
+						fixed_ship_subdivision_slot = nrm_subdivision_1
+						fixed_ship_tertiary_slot = nrm_cruiser_battery_5h_1_x04
+					}
+				}
+			}
+		}
+		create_ship = {
+			type = nrm_ship_hull_cruiser_1
+			equipment_variant = "彰武级重巡洋舰"
+			name = "彰武号重巡洋舰(播磨造船所)"
+		}
+	}
+}

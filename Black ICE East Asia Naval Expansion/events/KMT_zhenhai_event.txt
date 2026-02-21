@@ -1,0 +1,66 @@
+add_namespace = KMT_zhenhai
+
+#镇海号水上飞机母舰事件
+news_event = {
+	id = KMT_zhenhai.1
+	title = KMT_zhenhai.1.t
+	desc = KMT_zhenhai.1.d
+	picture = GFX_CHI_KMT_zhenhai_arrived
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = KMT_zhenhai.1.a
+		trigger = { tag = CHI }
+		CHI = {
+			hidden_effect = {
+				set_technology = {
+					early_ship_hull_carrier = 1 #解锁科技：航空母舰船体(早期)
+					popup = no #不弹出提示框
+				}
+				create_equipment_variant = {
+					name = "镇海级水上飞机母舰"				
+					type = nrm_ship_hull_carrier_light_2
+					name_group = CHI_CV_HISTORICAL
+					parent_version = 0
+					show_position = no
+					role_icon_index = 43
+					allow_without_tech = yes
+					modules = {
+						fixed_ship_hullform_slot = nrm_ship_hullform_carrier_light_2
+						fixed_ship_engine_slot = nrm_cruiser_engine_S0_005
+						fixed_ship_armor_layout_slot = nrm_armour_layout_CV_1
+						fixed_ship_armor_slot = nrm_carrier_armour_00h_1
+						fixed_ship_subdivision_slot = nrm_subdivision_1
+						fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+						fixed_ship_range_slot = nrm_range_cruiser_2
+						fixed_ship_radar_slot = empty
+						fixed_ship_fire_control_system_slot = nrm_fire_control_1
+						fixed_ship_fire_control_system_aa_slot = empty
+						fixed_ship_secondary_slot = nrm_cruiser_tertiary_none
+						fixed_ship_tertiary_slot = nrm_cruiser_tertiary_HA_3_1_x04 #76mm(早期)4门防空炮
+						fixed_ship_flightdeck_slot = nrm_carrier_flightdeck_ECH_015
+						custom_slot_1 = nrm_carrier_airgroup_RC_1
+						custom_slot_2 = empty
+						custom_slot_3 = empty
+						custom_slot_4 = empty
+						custom_slot_5 = nrm_support_cruiser_AA_1
+						custom_slot_6 = nrm_support_cruiser_AA_1
+					}
+					obsolete = yes #隐藏建造模板
+				}
+			}
+		}
+		create_ship = {
+			type = nrm_ship_hull_carrier_light_2
+			equipment_variant = "镇海级水上飞机母舰" 
+			creator = CHI
+			name = "镇海号水上飞机母舰"
+		}
+		hidden_effect = {
+			load_oob = "CHI_1936_zhenhai_CAS_equipment"
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}

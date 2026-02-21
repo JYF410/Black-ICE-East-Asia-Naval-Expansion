@@ -1,0 +1,29 @@
+spriteTypes = {
+	
+	#决议栏图片
+	spriteType = {
+		name = "GFX_decision_cat_picture_generic_shipbuilding"
+		texturefile = "gfx/event_pictures/decision_cat_picture_generic_shipbuilding.tga"
+	}
+	#镇海交付
+	spriteType = {
+		name = "GFX_CHI_KMT_zhenhai_arrived"
+		texturefile = "gfx/event_pictures/CHI_KMT_zhenhai_arrived.tga"
+	}
+	#三菱方案
+	spriteType = {
+		name = "GFX_CHI_KMT_sanling_plan"
+		texturefile = "gfx/event_pictures/CHI_KMT_sanling_plan.tga"
+	}
+	#播磨方案
+	spriteType = {
+		name = "GFX_CHI_KMT_bomo_plan"
+		texturefile = "gfx/event_pictures/CHI_KMT_bomo_plan.tga"
+	}
+	#三菱/播磨交付
+	spriteType = {
+		name = "GFX_CHI_KMT_ca6000t_arrived"
+		texturefile = "gfx/event_pictures/CHI_KMT_ca6000t_arrived.tga"
+	}
+
+}

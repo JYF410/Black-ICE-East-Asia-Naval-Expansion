@@ -1,0 +1,10 @@
+﻿#预设OBB文件，对应事件KMT_zhenhai.1
+air_wings = {
+	"镇海号水上飞机母舰" = {
+		pl_7_nav_bomber_equipment_1 = {
+			owner = "FRA"
+			amount = 3
+		}
+		start_experience_factor = 0.5
+	}
+}

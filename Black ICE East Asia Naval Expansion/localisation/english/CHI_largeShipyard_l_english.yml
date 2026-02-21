@@ -1,0 +1,46 @@
+﻿l_english:
+
+ CHI_zhenhai_fixed: "Refurbish the Seaplane Carrier Zhenhai"
+ CHI_zhenhai_fixed_desc: "On December 29, 1928, Zhang Xueliang sent a telegram to the nation announcing the Northeast Flag Substitution, declaring allegiance to the Nanjing Nationalist Government and effectively unifying China. Following this, elements of the former Northeast Fleet were incorporated into the ROC Navy's 3rd Fleet, with the 'Zhenhai' serving as the fleet's flagship."
+ KMT_zhenhai.1.t: "Zhenhai Refurbishment Complete"
+ KMT_zhenhai.1.d: "The refurbished seaplane carrier Zhenhai has arrived at port. Her specifications are as follows:\n\n                     Displacement: 2,708 tons\n                     Max Speed: 10.8 knots\n                     Main Battery: 2x 119.4mm guns\n                     Secondary Battery: 4x 75mm guns\n                     Aircraft: Schreck FBA-19 Seaplanes"
+ KMT_zhenhai.1.a: "Excellent."
+
+ CHI_6000t_builed: "Order 6,000-ton Heavy Cruiser"
+ CHI_6000t_builed_desc: "At the request of the ROC Navy, Mitsubishi Shipbuilding has designed a 6,000-ton heavy cruiser. However, while negotiations were underway with Mitsubishi, the Harima Dockyard—builders of the cruiser Ning Hai—decided to compete for the contract. Both yards have now submitted distinct design proposals for our consideration."
+ KMT_ca6000t.1.t: "Proposals from Mitsubishi and Harima"
+ KMT_ca6000t.1.d: "As the Ministry of the Navy pushes forward with the 'Six-Year Naval Construction Plan,' negotiations with Mitsubishi and Harima have reached a critical stage.\nMitsubishi's proposal offers a balanced trade-off between armament and armor, while Harima's design is more conservative but carries a higher price tag.\nWith naval budgets tight and relations with Japan increasingly strained, we must make a decision quickly."
+ KMT_ca6000t.1.a: "Review the Mitsubishi Shipbuilding Design"
+ KMT_ca6000t.1.b: "Review the Harima Dockyard Design"
+
+ KMT_ca6000t.2.t: "Mitsubishi Shipbuilding Proposal"
+ KMT_ca6000t.2.d: "                     Mitsubishi Design (Final Plan No. 4):\n\n                     Displacement: 6,150 tons\n                     Max Speed: 27.5 knots\n                     Main Battery: 3x Twin 200mm/50 cal guns\n                     Secondary Battery: 2x Twin 140mm/45 cal guns\n                     AA Armament: 3x 76mm/40 cal, 2x Twin 40mm cannons\n                     Torpedoes: 2x Triple 533mm tubes\n                     ASW: 2x Depth Charge projectors, 1x Depth Charge rack\n                     Aviation: 2x Seaplanes\n\n                     Cost Estimate: Low\n                     Delivery Time: 280 Days"
+ KMT_ca6000t.2.a: "We choose the Mitsubishi proposal."
+ KMT_ca6000t.2.b: "Return to overview."
+ CHI_select_sanling: "Contact Mitsubishi to begin construction."
+
+ KMT_ca6000t.3.t: "Harima Dockyard Proposal"
+ KMT_ca6000t.3.d: "                     Harima Design (Final Plan No. 2):\n\n                     Displacement: 6,000 tons\n                     Max Speed: 28 knots\n                     Main Battery: 3x Twin 200mm/50 cal guns\n                     Secondary Battery: 2x Twin 120mm/45 cal guns\n                     AA Armament: 6x 76mm/40 cal, 4x 7.7mm MGs\n                     Torpedoes: 2x Triple 533mm tubes\n                     ASW: 2x Depth Charge projectors\n                     Aviation: 2x Seaplanes\n\n                     Cost Estimate: High\n                     Delivery Time: 320 Days"
+ KMT_ca6000t.3.a: "We choose the Harima proposal."
+ KMT_ca6000t.3.b: "Return to overview."
+ CHI_select_bomo: "Contact Harima to begin construction."
+
+ KMT_ca6000t.4.t: "Mitsubishi Contract Delivered"
+ KMT_ca6000t.4.d: "              The 6,000-ton heavy cruiser ordered from Mitsubishi has arrived at port. Armament manifest:\n\n                     Displacement: 6,150 tons\n                     Max Speed: 27.5 knots\n                     Main Battery: 3x Twin 200mm/50 cal guns\n                     Secondary Battery: 2x Twin 140mm/45 cal guns\n                     AA Armament: 3x 76mm/40 cal, 2x Twin 40mm cannons\n                     Torpedoes: 2x Triple 533mm tubes\n                     ASW: 2x Depth Charge projectors, 1x Depth Charge rack\n                     Aviation: 2x Seaplanes"
+ KMT_ca6000t.4.a: "Excellent."
+
+ KMT_ca6000t.5.t: "Harima Contract Delivered"
+ KMT_ca6000t.5.d: "              The 6,000-ton heavy cruiser ordered from Harima has arrived at port. Armament manifest:\n\n                     Displacement: 6,000 tons\n                     Max Speed: 28 knots\n                     Main Battery: 3x Twin 200mm/50 cal guns\n                     Secondary Battery: 2x Twin 120mm/45 cal guns\n                     AA Armament: 6x 76mm/40 cal, 4x 7.7mm MGs\n                     Torpedoes: 2x Triple 533mm tubes\n                     ASW: 2x Depth Charge projectors\n                     Aviation: 2x Seaplanes"
+ KMT_ca6000t.5.a: "Excellent."
+
+ CHI_largeShipyard_construction: "ROC Naval Construction Program"
+ CHI_largeShipyard_construction_desc: "Admiral Chen Shaokuan has repeatedly emphasized the need to prioritize naval power, specifically the construction of aircraft carriers and large capital ships. It is time to begin this ambitious construction program!"
+
+ CHI_largeShipyard_construction_01: "Implement the 17th Year Naval Reorganization Plan"
+ CHI_largeShipyard_construction_01_desc: "In 1928, Admiral Yang Shuzhuang of the Beiyang Government drafted a 'Naval Reorganization Plan' to add 3 cruisers, 10 river gunboats, 4 destroyers, 2 submarines, 1 seaplane carrier, and 2 minelayers. While cruisers and submarines were to be purchased abroad, the river gunboats would be built domestically by the Jiangnan Shipyard in Shanghai, which possesses the superior technical equipment and personnel."
+
+ CHI_largeShipyard_construction_02: "Restart the 1930 Naval Construction Plan"
+ CHI_largeShipyard_construction_02_desc: "The Ministry of the Navy proposed a massive construction plan in 1930, aiming for 1 aircraft carrier, 2 heavy cruisers, 2 light cruisers, and over 100 auxiliary vessels. Previously impossible to implement, the recovery of Dalian's deep-water ports now allows us to build larger, more advanced warships—even aircraft carriers."
+
+ CHI_largeShipyard_construction_03: "Establish the ROC Pacific Fleet"
+ CHI_largeShipyard_construction_03_desc: "We have built our first modern fleet. Now, we must establish a blue-water navy capable of rivaling the British or even the Americans in the Pacific to protect our maritime interests. Using Taiwan as our pivot, we will break the first island chain and let the world feel the majesty of China."

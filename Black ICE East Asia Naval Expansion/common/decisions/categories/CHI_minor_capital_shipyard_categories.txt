@@ -1,0 +1,10 @@
+CHI_largeShipyard_construction = {
+	icon = GFX_decision_category_generic_naval
+	picture = GFX_decision_cat_picture_generic_shipbuilding
+	allowed = {
+		tag = CHI
+	}
+	visible = {
+		tag = CHI
+	}
+}

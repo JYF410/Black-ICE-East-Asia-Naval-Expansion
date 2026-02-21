@@ -1,0 +1,73 @@
+﻿units = {
+
+	##### ROCN #####
+	fleet = {
+		name = "中华民国海军舰队"
+		naval_base = 9974 #宁波
+		task_force = {
+			name = "国民政府海军中央第一舰队"
+			location = 9974 #宁波
+			# 核心巡洋舰
+			ship = { name = "宁海号轻巡洋舰" definition = light_cruiser start_experience_factor = 0.25 equipment = { nrm_ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ninghai Class" } } }
+			ship = { name = "逸仙号轻巡洋舰" definition = light_cruiser start_experience_factor = 0.15 equipment = { nrm_ship_hull_cruiser_0 = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "海容号防护巡洋舰" definition = light_cruiser start_experience_factor = 0.1 equipment = { nrm_ship_hull_cruiser_0 = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "海筹号防护巡洋舰" definition = light_cruiser start_experience_factor = 0.1 equipment = { nrm_ship_hull_cruiser_0 = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			# 辅助战斗舰
+			ship = { name = "中山号海防舰" definition = escort start_experience_factor = 0.3 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongfeng Class"} } }
+			ship = { name = "永健号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongqian Class"} } }
+			ship = { name = "永绩号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongqian Class"} } }
+			ship = { name = "建康号驱逐舰" definition = destroyer start_experience_factor = 0.15 equipment = { nrm_ship_hull_torpedo_boat_1 = {amount = 1 owner = CHI version_name = "Qianwei Class"} } }
+			# 鱼雷艇编队
+			ship = { name = "连安号鱼雷艇" definition = torpedo_boat start_experience_factor = 0.1 equipment = { nrm_ship_hull_torpedo_boat_1 = {amount = 1 owner = CHI version_name = "Changfeng Class"} } }
+			ship = { name = "建安号鱼雷艇" definition = torpedo_boat start_experience_factor = 0.1 equipment = { nrm_ship_hull_torpedo_boat_1 = {amount = 1 owner = CHI version_name = "Changfeng Class"} } }
+			ship = { name = "豫章号鱼雷艇" definition = torpedo_boat start_experience_factor = 0.1 equipment = { nrm_ship_hull_torpedo_boat_1 = {amount = 1 owner = CHI version_name = "Changfeng Class"} } }
+		}
+		task_force = {
+			name = "国民政府海军中央第二舰队"
+			location = 7191 #杭州
+			# 楚字号核心炮舰
+			ship = { name = "楚有号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Fuyu Class"} } }
+			ship = { name = "楚泰号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Fuyu Class"} } }
+			ship = { name = "楚同号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Fuyu Class"} } }
+			ship = { name = "楚谦号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Fuyu Class"} } }
+			ship = { name = "楚观号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Fuyu Class"} } }
+			# 浅水炮舰江元级
+			ship = { name = "江元号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongqian Class"} } }
+			ship = { name = "江贞号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongqian Class"} } }
+			# 近代化炮舰
+			ship = { name = "永绥号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yongxung Class"} } }
+			ship = { name = "咸宁号海防舰" definition = escort start_experience_factor = 0.2 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Xianning Class"} } }
+			ship = { name = "民生号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Mingxing Class"} } }
+			ship = { name = "民权号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Mingchuan Class"} } }
+		}
+		task_force = {
+			name = "国民政府海军东北第三舰队"
+			location = 1029 #徐海
+			ship = { name = "海琛号防护巡洋舰" definition = light_cruiser start_experience_factor = 0.1 equipment = { nrm_ship_hull_cruiser_0 = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "定海号炮舰" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "永翔号炮舰" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "楚豫号炮舰" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "同安号驱逐舰" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海鸥号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海鹤号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海清号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海燕号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海骏号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+			ship = { name = "海逢号巡防艇" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yongfeng Class"} } }
+		}
+		task_force = {
+			name = "国民政府海军广东第四舰队"
+			location = 10010 #龙溪
+			# 核心巡洋舰 (史实驻防广东)
+			ship = { name = "肇和号轻巡洋舰" definition = light_cruiser start_experience_factor = 0.1 equipment = { nrm_ship_hull_cruiser_0 = {amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
+			# 胜字号炮舰
+			ship = { name = "顺胜号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yixing Class"} } }
+			ship = { name = "义胜号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yixing Class"} } }
+			ship = { name = "勇胜号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yixing Class"} } }
+			ship = { name = "仁胜号海防舰" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Yixing Class"} } }
+			# 宁字号巡防艇 (以海宁、江宁为代表)
+			ship = { name = "海宁号巡防艇" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Xianning Class"} } }
+			ship = { name = "江宁号巡防艇" definition = escort start_experience_factor = 0.1 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Xianning Class"} } }
+		}
+	}
+}

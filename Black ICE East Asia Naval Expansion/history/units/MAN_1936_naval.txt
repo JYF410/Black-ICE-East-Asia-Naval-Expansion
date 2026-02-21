@@ -1,0 +1,103 @@
+﻿instant_effect = {
+	meta_effect = {
+		text = {
+			# Destroyers #
+			create_equipment_variant = {
+				name = "桃级驱逐舰"
+				type = nrm_ship_hull_destroyer_1
+				#name_group = MAN_DD_HISTORICAL
+				parent_version = 0
+				show_position = no
+				role_icon_index = 39
+				modules = {
+					fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_1
+					fixed_ship_engine_slot = nrm_destroyer_engine_S1_008
+					fixed_ship_sonar_slot = empty
+					fixed_ship_battery_slot = nrm_destroyer_battery_5_1_x3
+					fixed_ship_subdivision_slot = nrm_subdivision_1
+					fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+					fixed_ship_range_slot = nrm_range_destroyer_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_fire_control_system_slot = nrm_fire_control_2
+					fixed_ship_fire_control_system_aa_slot = empty
+					custom_slot_1 = nrm_support_destroyer_ASW_1
+					custom_slot_2 = empty
+					custom_slot_3 = empty
+					custom_slot_4 = nrm_support_destroyer_AA_1
+					custom_slot_5 = empty
+					custom_slot_6 = empty
+				}
+				obsolete = no
+			}
+			create_equipment_variant = {
+				name = "顺天级浅水炮舰"
+				type = nrm_ship_hull_light_1
+				#name_group = MAN_PC_HISTORICAL
+				parent_version = 0
+				show_position = no
+				role_icon_index = 21
+				modules = {
+					fixed_ship_hullform_slot = nrm_ship_hullform_light_1
+					fixed_ship_engine_slot = nrm_destroyer_engine_S0_001
+					fixed_ship_sonar_slot = empty
+					fixed_ship_battery_slot = nrm_destroyer_battery_5_1_x2
+					fixed_ship_subdivision_slot = nrm_subdivision_1
+					fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+					fixed_ship_range_slot = nrm_range_light_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_fire_control_system_slot = nrm_fire_control_1
+					fixed_ship_fire_control_system_aa_slot = empty
+					custom_slot_1 = empty
+					custom_slot_2 = empty
+					custom_slot_3 = nrm_support_destroyer_AA_1
+					custom_slot_5 = nrm_support_destroyer_AA_1
+					custom_slot_6 = nrm_support_destroyer_AA_1
+				}
+				obsolete = no
+			}	
+			create_equipment_variant = {	
+				name = "定边级浅水炮舰"
+				type = nrm_ship_hull_light_1
+				#name_group = MAN_PC_HISTORICAL
+				parent_version = 0
+				show_position = no
+				role_icon_index = 21
+				modules = {
+					fixed_ship_hullform_slot = nrm_ship_hullform_light_1
+					fixed_ship_engine_slot = nrm_destroyer_engine_S0_001
+					fixed_ship_sonar_slot = empty
+					fixed_ship_battery_slot = nrm_destroyer_battery_5_1_x2
+					fixed_ship_subdivision_slot = nrm_subdivision_1
+					fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+					fixed_ship_range_slot = nrm_range_light_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_fire_control_system_slot = nrm_fire_control_1
+					fixed_ship_fire_control_system_aa_slot = empty
+					custom_slot_1 = empty
+					custom_slot_2 = nrm_support_destroyer_AA_1
+					custom_slot_3 = nrm_destroyer_battery_3_1_x1
+					custom_slot_5 = nrm_support_destroyer_AA_1
+					custom_slot_6 = nrm_support_destroyer_AA_1
+				}
+				obsolete = no
+			}
+		}
+	}
+}
+units= {
+	######## NAVAL OOB ########
+	fleet = {
+		name = "满洲帝国海军"		
+		naval_base = 6981
+		task_force = {				
+			name = "满洲帝国江防舰队"
+			location = 6981
+			ship = { name = "MIN 海威" definition = destroyer start_experience_factor = 0.1 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = MAN version_name = "桃级驱逐舰"} } }
+			ship = { name = "MIN 顺天" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = MAN version_name = "顺天级浅水炮舰"} } }
+			ship = { name = "MIN 养民" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = MAN version_name = "顺天级浅水炮舰"} } }
+			ship = { name = "MIN 定边" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = MAN version_name = "定边级浅水炮舰"} } }
+			ship = { name = "MIN 亲仁" definition = escort start_experience_factor = 0.05 equipment = { nrm_ship_hull_light_1 = {amount = 1 owner = MAN version_name = "定边级浅水炮舰"} } }
+		}				
+	}
+}
+
