@@ -1,4 +1,4 @@
-version="1.0"
+version="1.2"
 tags={
 	"Historical"
 	"Translation"
@@ -6,7 +6,10 @@ tags={
 dependencies={
 	"BlackICE Historical Immersion Mod"
 	"BlackICE CN"
+	"Blackice HOI IV TEST"
+	"Blackice HOI IV TEST CN"
 	"黑冰海军汉化"
+	"Additional ship models"
 }
 name="Black ICE East Asia Naval Expansion"
 picture="thumbnail.png"
