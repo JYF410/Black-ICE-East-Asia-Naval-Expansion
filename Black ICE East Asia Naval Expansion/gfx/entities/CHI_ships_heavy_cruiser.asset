@@ -1,0 +1,30 @@
+#重型巡洋舰（老式）
+entity = {
+	clone = "JAP_heavy_cruiser_1_entity"
+	pdxmesh = "aoba_heavycruiser_mesh"
+	name = "CHI_heavy_cruiser_0_entity"
+}
+#重型巡洋舰（早期）
+entity = {
+	clone = "JAP_heavy_cruiser_1_entity"
+	pdxmesh = "aoba_heavycruiser_mesh"
+	name = "CHI_heavy_cruiser_1_entity"
+}
+#重型巡洋舰（改良）
+entity = {
+	clone = "JAP_heavy_cruiser_2_entity"
+	pdxmesh = "myoko_heavycruiser_mesh"
+	name = "CHI_heavy_cruiser_2_entity"
+}
+#重型巡洋舰（战间）
+entity = {
+	clone = "JAP_heavy_cruiser_2_alt_2_entity"
+	pdxmesh = "takao_heavycruiser_mesh"
+	name = "CHI_heavy_cruiser_3_entity"
+}
+#重型巡洋舰（先进）
+entity = {
+	clone = "JAP_heavy_cruiser_2_alt_0_entity"
+	pdxmesh = "mogami_heavycruiser_mesh"
+	name = "CHI_heavy_cruiser_4_entity"
+}

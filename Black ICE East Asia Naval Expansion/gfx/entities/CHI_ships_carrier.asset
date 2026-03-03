@@ -1,0 +1,6 @@
+#航空母舰（战间）
+entity = {
+	clone = "ENG_carrier_3_entity"
+	pdxmesh = "illustrious_carrier_mesh"
+	name = "CHI_carrier_2_entity"
+}

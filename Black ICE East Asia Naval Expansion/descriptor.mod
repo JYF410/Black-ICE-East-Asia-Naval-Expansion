@@ -1,4 +1,4 @@
-version="1.2"
+version="1.0"
 tags={
 	"Historical"
 	"Translation"
@@ -6,8 +6,6 @@ tags={
 dependencies={
 	"BlackICE Historical Immersion Mod"
 	"BlackICE CN"
-	"Blackice HOI IV TEST"
-	"Blackice HOI IV TEST CN"
 	"黑冰海军汉化"
 	"Additional ship models"
 }

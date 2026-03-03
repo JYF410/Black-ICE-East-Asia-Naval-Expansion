@@ -1,0 +1,30 @@
+#轻型巡洋舰（老式）
+entity = {
+	clone = "JAP_light_cruiser_0_entity"
+	pdxmesh = "kuma_lightcruiser_mesh"
+	name = "CHI_light_cruiser_0_entity"
+}
+#轻型巡洋舰（早期）
+entity = {
+	clone = "JAP_light_cruiser_2_alt_1_entity"
+	pdxmesh = "agano_lightcruiser_mesh"
+	name = "CHI_light_cruiser_1_entity"
+}
+#轻型巡洋舰（改良）
+entity = {
+	clone = "ENG_light_cruiser_alt_0_entity"
+	pdxmesh = "arethusa_lightcruiser_mesh"
+	name = "CHI_light_cruiser_2_entity"
+}
+#轻型巡洋舰（战间）
+entity = {
+	clone = "SOV_light_cruiser_2_entity"
+	pdxmesh = "budyonny_lightcruiser_mesh"
+	name = "CHI_light_cruiser_3_entity"
+}
+#轻型巡洋舰（先进）
+entity = {
+	clone = "JAP_light_cruiser_2_alt_3_entity"
+	pdxmesh = "mikuma_lightcruiser_mesh"
+	name = "CHI_light_cruiser_4_entity"
+}
