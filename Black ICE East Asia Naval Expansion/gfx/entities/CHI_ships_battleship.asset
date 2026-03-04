@@ -236,16 +236,3 @@ entity = {
 	pdxmesh = "elsass_battleship_mesh"
 	name = "CHI_battleship_4_entity"
 }
-#######################################################################################
-#大型巡洋舰(战间)
-entity = {
-	clone = "USA_battle_cruiser_3_entity"
-	pdxmesh = "alaska_battlecruiser_mesh"
-	name = "CHI_large_cruiser_3_entity"
-}
-#大型巡洋舰(先进)
-entity = {
-	clone = "GER_heavy_cruiser_4_entity"
-	pdxmesh = "hindenburg_heavycruiser_mesh"
-	name = "CHI_large_cruiser_4_entity"
-}
