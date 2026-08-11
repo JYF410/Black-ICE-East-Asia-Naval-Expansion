@@ -34,7 +34,7 @@ CHI_largeShipyard_construction = {
 		}
 		available = {
 			has_country_flag = coastal_state
-			NOT = { has_completed_focus = KMT_anti_JAP }
+			NOT = { has_completed_focus = CHI_war_of_resistance }
 		}
 		cost = 20
 		days_remove = 14 #需要14天
@@ -59,13 +59,13 @@ CHI_largeShipyard_construction = {
 		}
 		available = {
 			has_country_flag = coastal_state
-			NOT = { has_completed_focus = KMT_anti_JAP }
+			NOT = { has_completed_focus = CHI_war_of_resistance }
 		}
 		cost = 50
 		days_remove = 280
 		fire_only_once = yes
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 		}
 		cancel_trigger = {
 			JAP = { has_war_with = CHI }
@@ -86,13 +86,13 @@ CHI_largeShipyard_construction = {
 		}
 		available = {
 			has_country_flag = coastal_state
-			NOT = { has_completed_focus = KMT_anti_JAP }
+			NOT = { has_completed_focus = CHI_war_of_resistance }
 		}
 		cost = 50
 		days_remove = 320
 		fire_only_once = yes
 		modifier = {
-			civilian_factory_use = 6
+			civilian_factory_use = 4
 		}
 		cancel_trigger = {
 			JAP = { has_war_with = CHI }
